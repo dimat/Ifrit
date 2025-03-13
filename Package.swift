@@ -7,6 +7,7 @@ let package = Package(
     name: "Ifrit",
     platforms: [
       .iOS(.v13),
+      .tvOS(.v17),
       .macOS(.v10_15)
     ],
     products: [
